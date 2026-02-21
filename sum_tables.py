@@ -2,16 +2,16 @@ from playwright.sync_api import sync_playwright
 import re
 
 URLS = [
-    "https://sanand0.github.io/tdsdata/js_table/?seed=63",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=64",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=65",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=66",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=67",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=68",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=69",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=70",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=71",
-    "https://sanand0.github.io/tdsdata/js_table/?seed=72",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=83",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=84",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=85",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=86",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=87",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=88",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=89",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=90",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=91",
+    "https://sanand0.github.io/tdsdata/js_table/?seed=92",
 ]
 
 def extract_numbers(text):
